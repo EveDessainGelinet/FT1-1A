@@ -9,7 +9,7 @@ html {
 #page1 {
   margin-top: -50px;
   height : 1024px;
-  background-image: url(page1.jpg);
+  background-image: url(../images/page1.jpg);
   background-position: center;
   background-size: cover;
   border-bottom: solid 1px black;
@@ -65,7 +65,7 @@ html {
 #page2 {
   margin-top: 0;
   height : 1024px;
-  background-image: url(page2.jpg);
+  background-image: url(../images/page2.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -96,7 +96,7 @@ html {
 
 #page3 {
   height : 1024px;
-  background-image: url(page3.jpg);
+  background-image: url(../images/page3.jpg);
   background-position: center;
   background-size: cover;
   border-bottom: solid 1px black;
@@ -121,7 +121,7 @@ html {
 
 #page4 {
   height : 1024px;
-  background-image: url(page4.jpg);
+  background-image: url(../images/page4.jpg);
   background-position: center;
   background-size: cover;
   border-bottom: solid 1px black;
@@ -129,7 +129,7 @@ html {
 
 #page5 {
   height : 1024px;
-  background-image: url(page5.jpg);
+  background-image: url(../images/page5.jpg);
   background-position: center;
   background-size: cover;
   border-bottom: solid 2px grey;
@@ -163,7 +163,7 @@ html {
 
 #page6 {
   height : 1024px;
-  background-image: url(page6.jpg);
+  background-image: url(../images/page6.jpg);
   background-position: center;
   background-size: cover;
   border-bottom: solid 2px grey;
@@ -188,7 +188,7 @@ html {
 
 #page7 {
   height : 1024px;
-  background-image: url(page7.jpg);
+  background-image: url(../images/page7.jpg);
   background-position: center;
   background-size: cover;
   border-bottom: solid 2px grey;
@@ -208,7 +208,7 @@ html {
 
 #page8 {
   height : 1024px;
-  background-image: url(page8.jpg);
+  background-image: url(../images/page8.jpg);
   background-position: center;
   background-size: cover;
   border-bottom: solid 2px grey;
@@ -236,7 +236,7 @@ html {
 
 #page9 {
   height : 750px;
-  background-image: url(page9.jpg);
+  background-image: url(../images/page9.jpg);
   background-position: center;
   background-size: cover;
   border-bottom: solid 2px grey;

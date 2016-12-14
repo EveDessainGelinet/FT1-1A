@@ -6,15 +6,15 @@ window.onload = function () {
   // Voilà, tu vois que là maVariable contient bien mon p avec la class "maClass"
 
   setTimeout(
-            function(){
-              var paragraphe = document.getElementById("subtitleone");
-              paragraphe.innerHTML = "L’agence T.I.M.E a été créée pour empêcher l'apparition de failles temporelles et protéger l’humanité.";
+    function(){
+      var paragraphe = document.getElementById("subtitleone");
+      paragraphe.innerHTML = "L’agence T.I.M.E a été créée pour empêcher l'apparition de failles temporelles et protéger l’humanité.";
 
-              setTimeout(
-                        function(){
-                          paragraphe.innerHTML = "En tant que nouvelle recrue, vous serez assigné pour votre 1ère mission";
-                        },
-                    6000);
+      setTimeout(
+        function(){
+          paragraphe.innerHTML = "En tant que nouvelle recrue, vous serez assigné pour votre 1ère mission";
+        },
+        6000);
 
                     setTimeout(
                               function(){
