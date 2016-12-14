@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+#page1 {
+  margin-top: -50px;
+  height : 1024px;
+  background-image: url(page1.jpg);
+  background-position: center;
+  background-size: cover;
+  border-bottom: solid 1px black;
+}
+
+#page1 h1 {
+  padding-top: 70px;
+  font-size: 70px;
+  text-align: center;
+}
+
+#page1 .bouton {
+  width: 200px;
+  height: 50px;
+  border: solid 2px black;
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#page1 a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  height: 100%;
+  line-height: 3;
+}
+
+#page1 .scroll {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height : 750px;
+}
+
+#page1 .scroll img{
+  width: 100px;
+  height: 100px;
+  animation-name: bounce;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes bounce {
+    0%   {margin-bottom: 0px;}
+    50% {margin-bottom: 15px;}
+    100% {margin-bottom: 0px;}
+}
+
+#page2 {
+  margin-top: 0;
+  height : 1024px;
+  background-image: url(page2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#page2 h1 {
+  margin-top: 0;
+  padding-top: 50px;
+  font-size: 60px;
+  text-align: center;
+}
+
+#page2 #p2{
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   height: 860px;
+}
+
+#page2 #p2 #subtitleone {
+  background-color: black;
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: white;
+}
+
+#page3 {
+  height : 1024px;
+  background-image: url(page3.jpg);
+  background-position: center;
+  background-size: cover;
+  border-bottom: solid 1px black;
+}
+
+#page3 #p3{
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   height: 1000px;
+}
+
+#page3 #p3 #subtitletwo {
+  background-color: black;
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: white;
+}
+
+#page4 {
+  height : 1024px;
+  background-image: url(page4.jpg);
+  background-position: center;
+  background-size: cover;
+  border-bottom: solid 1px black;
+}
+
+#page5 {
+  height : 1024px;
+  background-image: url(page5.jpg);
+  background-position: center;
+  background-size: cover;
+  border-bottom: solid 2px grey;
+}
+
+#page5 h1 {
+  font-family: 'Tangerine', cursive;
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding-top: 40px;
+}
+
+#page5 #p5{
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   height: 850px;
+}
+
+#page5 #p5 #subtitlethree {
+  background-color: black;
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: white;
+}
+
+#page6 {
+  height : 1024px;
+  background-image: url(page6.jpg);
+  background-position: center;
+  background-size: cover;
+  border-bottom: solid 2px grey;
+}
+
+#page6 #p6{
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   height: 850px;
+}
+
+#page6 #p6 #subtitlefour {
+  background-color: black;
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: white;
+}
+
+#page7 {
+  height : 1024px;
+  background-image: url(page7.jpg);
+  background-position: center;
+  background-size: cover;
+  border-bottom: solid 2px grey;
+}
+
+#page7 #icones {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#page7 #icones img {
+  width: 150px;
+  height: 150px;
+}
+
+#page8 {
+  height : 1024px;
+  background-image: url(page8.jpg);
+  background-position: center;
+  background-size: cover;
+  border-bottom: solid 2px grey;
+}
+
+#page8 h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#page8 .buy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page8 .buy img {
+  height: 200px;
+  width: 200px;
+}
+
+#page9 {
+  height : 750px;
+  background-image: url(page9.jpg);
+  background-position: center;
+  background-size: cover;
+  border-bottom: solid 2px grey;
+}
+
+#page9 #icons{
+  height: 650px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#page9 #icons .single_icon img{
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+  background-color: white;
+  border-radius: 100%;
+}
+
+#page9 .droits {
+  font-size: 20px;
+  text-align:center;
+  color: white;
+}
